@@ -10,13 +10,13 @@ def test_2
 	assert_equal(7.5, divide(7.5, 1))
 end
 def test_3
-	assert_equal(0, divide(5000, 0))
+	assert_equal(10000.0, divide(5000, 0.5))
 end
 def test_4
 	assert_equal(4.264392324093817, divide(1, 0.2345))
 end
 def test_5
-	assert_equal(200, divide(50, 4))
+	assert_equal(12, divide(50, 4))
 end
 def test_6
 	assert_equal(1, divide(10, 10))
