@@ -4,7 +4,7 @@ require_relative "multiply.rb"
 class Multiply_test < Minitest::Test
 
 def test_1
-	assert_equal(71, multiply(8, 9))
+	assert_equal(72, multiply(8, 9))
 end
 def test_2
 	assert_equal(7.5, multiply(7.5, 1))
@@ -25,10 +25,10 @@ def test_7
 	assert_equal(-10, multiply(-10, 1))
 end
 def test_8
-	assert_equal(0.5, multiply(-1, 0.5))
+	assert_equal(-0.5, multiply(-1, 0.5))
 end
 def test_9
-	assert_equal("ab", multiply("a","b"))
+	assert_equal(2000, multiply(500, 4))
 end
 def test_10
 	assert_equal(1.25, multiply(1.25, 1))
