@@ -12,4 +12,25 @@ end
 def test_3
 	assert_equal(200, addition(100, 50, 10, 40))
 end
+def test_4
+	assert_equal(900, addition(100, 500, 50, 250))
+end
+def test_5
+	assert_equal(20, addition(10, -20, 10, 20))
+end
+def test_6
+	assert_equal(-20, addition(-10, -5, -4, -1))
+end
+def test_7
+	assert_equal("fool", addition("f", "o", "o", "l"))
+end 
+def test_8
+	assert_equal("cool", addition("c", "o", "o", "l"))
+end
+def test_9
+	assert_equal("abcd", addition("a", "b", "c", "d"))
+end
+def test_10
+	assert_equal(-200, addition(-400, 100, 25, 75))
+end
 end
