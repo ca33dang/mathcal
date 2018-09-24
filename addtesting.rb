@@ -10,6 +10,6 @@ def test_2
 	assert_equal(500, addition(200, 200, 50, 50))
 end
 def test_3
-	assert_equal(200, addition(100, 1, 10, 2))
+	assert_equal(200, addition(100, 50, 10, 40))
 end
 end
